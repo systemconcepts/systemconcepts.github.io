@@ -1,10 +1,10 @@
-$(document).ready(function() {
+$(window).on('load', function() {
   $('.case').each(function(fadeInDiv){
     $(this).delay(fadeInDiv * 400).fadeIn(1000);
   });
 })
 
-$(window).on('load',function(){
+$(document).ready(function(){
   changeClass();
   changeFontSize();
 });
