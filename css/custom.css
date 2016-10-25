@@ -1,0 +1,84 @@
+
+body {
+  background-color: #222222;
+  font-size: 16px;
+}
+
+.header h1 {
+  color: #FFE600;
+}
+
+.header .medium {
+    font-size: 3.625em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+ .header .small {
+   font-size: 2.5em;
+   padding-bottom: 1em;
+   padding-top: .25em;
+ }
+
+
+/*.card-deck .col-lg-4 {
+  max-height: 272px;
+  width: 33vw;
+  min-height: 107px;
+  background-color: red;
+  padding: 0;
+}*/
+
+.title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  text-align:right;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 1.626em;
+  color: #4A4A4A;
+
+}
+
+
+/*Image to scale to fill*/
+
+.card .card-img {
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  /*margin-bottom: 8px;*/
+}
+
+.case {
+  /*padding:4px;*/
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.card .card-inverse {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 8px;
+}
+
+.case {
+  display: none;
+}
+
+
+/*.card .card-inverse {
+  width: 276px;
+}
+
+.card-img {
+  width: 100%;
+}*/
