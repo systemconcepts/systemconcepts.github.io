@@ -8,13 +8,12 @@ $(document).ready(function(){
   changeClass();
   changeFontSize();
 });
+
 $(window).on('resize', function(){
   changeClass();
   changeFontSize();
 });
 
-// $(document).ready(changeFontSize);
-// $(window).on('resize', changeFontSize);
 
 function changeClass() {
   if($(window).width() < 768) {
