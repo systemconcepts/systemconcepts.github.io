@@ -81,11 +81,17 @@ body {
 }
 
 .navbar-brand {
+  font-weight: normal;
   color: #FFE600;
   margin-left: -16px;
+  line-height: 38px;
 }
 
 .navbar-brand:hover {
+  color: #FFE600;
+}
+
+.navbar-brand:visited {
   color: #FFE600;
 }
 
