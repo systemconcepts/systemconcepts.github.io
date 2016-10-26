@@ -4,6 +4,12 @@ $(window).on('load', function() {
   });
 })
 
+
+ $(window).on('load', function(){
+     $('.section-img').fadeIn(1000);
+     $('.section').delay(1000).fadeIn(1000);
+ })
+
 $(document).ready(function(){
   changeClass();
   changeFontSize();

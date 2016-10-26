@@ -1,5 +1,6 @@
 
 body {
+
   background-color: #222222;
   font-size: 16px;
 }
@@ -73,3 +74,78 @@ body {
 /**************************************
             Section pages
 ***************************************/
+
+.navbar {
+  background-color: #222222;
+  color: #FFE600;
+}
+
+.navbar-brand {
+  color: #FFE600;
+}
+
+.navbar-brand:hover {
+  color: #FFE600;
+}
+
+.section-text-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  /*height:95vh;*/
+  /*padding-left: 0;*/
+  position: absolute;
+  top: 30%;
+}
+
+/*.section-text-box p {
+  padding-left: 16px;
+}*/
+
+.sectionTitle{
+  font-size: 1.625em;
+  font-weight: normal;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  /*padding-left: 16px;*/
+}
+
+.sectionBtn{
+  background-color: #FFE600;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  text-align: left;
+  font-size: 0.875em;
+  color: #4A4A4A;
+}
+
+.button-block {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/*.section {
+  background-image: url('../img/menuCard/officetest.png');
+  background-size: cover;
+  background-position:50% 50%;
+  background-size:cover;
+  position:fixed;
+}*/
+
+
+
+
+.section-img {
+  height: 100vh;
+  margin-top: -40px;
+  background: url(../img/menuCard/officetest.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -100;
+  display: none;
+}
+
+.section {
+  display: none
+}
