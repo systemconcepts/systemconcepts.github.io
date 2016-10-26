@@ -4,6 +4,10 @@ body {
   font-size: 16px;
 }
 
+.size-test {
+  margin-top: 66px;
+}
+
 .header h1 {
   color: #FFE600;
 }
@@ -19,15 +23,6 @@ body {
    padding-top: .25em;
  }
 
-
-/*.card-deck .col-lg-4 {
-  max-height: 272px;
-  width: 33vw;
-  min-height: 107px;
-  background-color: red;
-  padding: 0;
-}*/
-
 .title {
   position: absolute;
   bottom: 0;
@@ -42,16 +37,11 @@ body {
 
 }
 
-
-/*Image to scale to fill*/
-
 .card .card-img {
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 4px;
-
-  /*margin-bottom: 8px;*/
 }
 
 .card .card-img-sml {
@@ -80,11 +70,6 @@ body {
   display: none;
 }
 
-
-/*.card .card-inverse {
-  width: 276px;
-}
-
-.card-img {
-  width: 100%;
-}*/
+/**************************************
+            Section pages
+***************************************/
