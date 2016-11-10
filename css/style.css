@@ -107,6 +107,7 @@ Menu Grid Items
   flex-direction: row;
   position: relative;
 	box-shadow: 0 5px 35px rgba(0,0,0,.65);
+	z-index: 80;
 }
 
 .section-name {
@@ -130,6 +131,7 @@ Menu Grid Items
   bottom: -25px;
   background:url('../img/menuCard/text_bg.png') no-repeat ;
   background-size: cover;
+	z-index: 90;
 
 }
 
