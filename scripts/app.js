@@ -1,11 +1,11 @@
-// $(window).on('load', function(){
-//     $("div#loader").fadeOut();
+$(window).on('load', function(){
+    loaded();
+
+});
+
+// $(document).ready(function(){
 //
 // });
-
-$(document).ready(function(){
-    loaded();
-});
 
 function loaded(){
   $('#loader').addClass('hidden');
