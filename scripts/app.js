@@ -8,7 +8,8 @@ $(window).on('load', function(){
 // });
 
 function loaded(){
-  $('#loader').addClass('hidden');
+  // $('#loader').addClass('hidden');
+  $('#loader').fadeOut('slow')
 }
 
 // $('#step-by-step').click(function(){

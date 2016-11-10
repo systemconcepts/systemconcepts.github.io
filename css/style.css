@@ -19,7 +19,9 @@ Loader
 ==========================*/
 
 .hidden {
-	display: none;
+	/*display: none;*/
+	opacity: 0;
+	transition: 3s;
 }
 
 .loader {
