@@ -413,14 +413,19 @@ No media query since this is the default in Bootstrap*/
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+	.container {
+		width: 80%;
+	}
+
+	.banner h1 {
+		width: 70%;
+	}
    .grid-item {
      width: 32%;
      margin: 8px auto;
    }
 
-.main-header {
 
-}
 
 
 
@@ -490,7 +495,7 @@ No media query since this is the default in Bootstrap*/
   }
   .banner h1 {
     font-size: 58px;
-    width: 50%;
+
     line-height: 73px;
   }
   .text-background {
@@ -502,6 +507,10 @@ No media query since this is the default in Bootstrap*/
 
  /*Extra Large devices (desktops, 992px and up)*/
  @media (min-width: 1000px) {
+
+	.banner h1 {
+		width: 60%;
+	}
 
   }
 
