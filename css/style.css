@@ -245,7 +245,7 @@ Section Page
 
 
 .home {
-  background:url('../img/office.png') no-repeat center center;
+  background:url('../img/sectionBG/home.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -309,10 +309,7 @@ Section Page
 	counter-increment: gallery-cell;
 }
 
-.home-cell-1 {
-	background:url('../img/step_by_step/home/step_01.png') no-repeat center center;
-	background-size: contain;
-}
+
 
 .step-text, .step-num {
 	color: #4A4A4A;
