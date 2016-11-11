@@ -111,8 +111,9 @@ Banner
   color: #FFE600;
   width: 100%;
   padding-top: 16px;
-  font-size: 2.2em;
-  line-height: 46px;
+  font-size: 46px;
+  line-height: 53px;
+	margin: 4% 0;
 }
 
 h1,
@@ -411,14 +412,16 @@ No media query since this is the default in Bootstrap*/
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	.container {
-		width: 80%;
+		width: 90%;
 	}
 
 	.banner h1 {
+		font-size: 3.2em;
 		width: 70%;
+		line-height: 52px;
 	}
    .grid-item {
-     width: 32%;
+     width: 46%;
      margin: 8px auto;
    }
 
@@ -488,7 +491,8 @@ No media query since this is the default in Bootstrap*/
     margin-bottom: 60px;
   }
   .grid-item {
-    height: 272px;
+		width: 32%;
+    height: 220px;
   }
   .banner h1 {
     font-size: 58px;
@@ -506,11 +510,17 @@ No media query since this is the default in Bootstrap*/
  @media (min-width: 1000px) {
 
 	.banner h1 {
-		width: 60%;
+		width: 50%;
 	}
 
   }
 
+@media(min-height: 1024px) {
+
+	.grid-item {
+		height: 250px;
+	}
+}
   /*=============================
             clearfix
   =============================*/
