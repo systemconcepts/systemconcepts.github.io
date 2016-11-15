@@ -35,6 +35,10 @@ Loader
 
 }
 
+/*=========================
+Loader
+==========================*/
+
 
 .spinner {
   margin: 0 auto;
@@ -563,4 +567,38 @@ No media query since this is the default in Bootstrap*/
 	.home-cell-6 {
 		background:url('../img/step_by_step/home/step_06.png') no-repeat center center;
 		background-size: contain;
+	}
+
+
+	/*=================================================================================================
+            																Cection pages content
+  ==================================================================================================*/
+
+	.home {
+	  background:url('../img/sectionBG/home.png') no-repeat center center;
+	  background-size: cover;
+	}
+	.office {
+	  background:url('../img/sectionBG/office.png') no-repeat center center;
+	  background-size: cover;
+	}
+
+	.hot_desk {
+	  background:url('../img/sectionBG/hotDesk.png') no-repeat center center;
+	  background-size: cover;
+	}
+
+	.public_area {
+	  background:url('../img/sectionBG/publicArea.png') no-repeat center center;
+	  background-size: cover;
+	}
+
+	.travelling {
+	  background:url('../img/sectionBG/travelling.png') no-repeat center center;
+	  background-size: cover;
+	}
+
+	.client-site {
+	  background:url('../img/sectionBG/clientSite.png') no-repeat center center;
+	  background-size: cover;
 	}
