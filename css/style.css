@@ -341,14 +341,14 @@ Section Page
 
 
 /* cell number */
-.carousel-cell:before {
+/*.carousel-cell:before {
 	display: block;
 	text-align: center;
 	content: counter(gallery-cell);
-	/*line-height: 100%;*/
+	line-height: 100%;
 	font-size: 80px;
 	color: white;
-}
+} */
 
 .flickity-page-dots .dot {
   width: 12px;
