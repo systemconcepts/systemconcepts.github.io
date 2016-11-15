@@ -496,6 +496,7 @@ No media query since this is the default in Bootstrap*/
   }
   .banner h1 {
     font-size: 58px;
+		width: 100%;
 
     line-height: 73px;
   }
@@ -510,7 +511,8 @@ No media query since this is the default in Bootstrap*/
  @media (min-width: 1000px) {
 
 	.banner h1 {
-		width: 50%;
+		width: 100%;
+		line-height: 150px;
 	}
 
   }
