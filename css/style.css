@@ -598,7 +598,7 @@ No media query since this is the default in Bootstrap*/
 	  background-size: cover;
 	}
 
-	.client-site {
+	.client_site {
 	  background:url('../img/sectionBG/clientSite.png') no-repeat center center;
 	  background-size: cover;
 	}
